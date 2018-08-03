@@ -3,6 +3,7 @@ steps:
   args: ['fetch', '--unshallow']
 - name: 'ubuntu'
   args: ['ls', '-la', '.']
+#test
 #- name: 'ubuntu'
 #  args: ['rm', '-rf', 'public']
 - name: 'ubuntu'
