@@ -1,6 +1,6 @@
 steps:
-#- name: gcr.io/cloud-builders/git
-#  args: ['fetch', '--unshallow']
+- name: gcr.io/cloud-builders/git
+  args: ['fetch', '--unshallow']
 - name: 'ubuntu'
   args: ['ls', '-la', '.']
 #- name: 'ubuntu'
