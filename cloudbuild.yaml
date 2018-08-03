@@ -6,7 +6,7 @@ steps:
 #- name: 'ubuntu'
 #  args: ['rm', '-rf', 'public']
 - name: 'ubuntu'
-  args: ['ls', '-la', 'themes/casper/static/']
+  args: ['ls', '-la', 'themes/']
 - name: 'gcr.io/$PROJECT_ID/hugo'
   args: ['-t', 'casper','-v']
 - name: 'ubuntu'
